@@ -1,0 +1,276 @@
+.header
+{
+    background: rgb(238, 236, 236);
+}
+.container
+{
+    width: 75% !important;
+}
+ .navbar-brand {
+    margin-left: -2rem !important;
+    width: 20%;
+} 
+.nav-link {
+    margin: 0rem 0.65rem 0rem 0rem;
+}
+.navbar a
+{
+    font-family: 'Poppins', sans-serif;
+    color: black !important;
+
+}
+.navbar a:hover
+{
+ color: #ff9154 !important;
+ border-top: 2px solid #ff9154 !important;
+}
+.poppins400
+{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    font-size: 12px;
+    color:gray;
+    width: 75%;
+}
+.poppins500
+{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+}
+.rubik500
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.rubik400
+{
+    font-family: 'Rubik', sans-serif; 
+    font-weight: 400;
+}
+.cookie400
+{
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+}
+.text {
+    margin-top: 9rem;
+}
+.btn {
+    margin: 6% 0%;
+    background-image: linear-gradient(90deg,#FF9154,#FA6D66);
+}
+.btn:hover
+ {
+    box-shadow: 0px 2px rgba(204, 174, 123, 0.507);
+}
+.frontImg 
+{
+     width: 138% !important;
+
+}
+.icon {
+    margin-top: 12rem;
+    color: gray;
+   
+
+}
+.fabf
+{
+    padding: 12px 14px 8px 14px;
+
+}
+.fab1{
+    padding: 11px 9px 9px 10px;
+}
+
+.fab:hover
+{
+border-radius: 50% !important;
+background: #ff9154;;
+color:white;
+}
+.arrow {
+    color: gray;
+    float: right;
+    margin-top: 25px;
+   
+}
+.arrow .material-icons {
+    background: #ff9154;;
+    color: white;
+}
+.side {
+    margin-top: 10rem;
+    width: 80%;
+}
+.about {
+    margin-top: 12.5rem;
+}
+.about .rubik500 {
+    padding-top: 1.5rem;
+}
+p.poppins400 {
+    padding-top: 1rem;
+}
+.food {
+    margin-top: 7rem;
+}
+.food .rubik500 {
+    padding-top: 1.5rem;
+}
+
+.food li {
+    color: #999999;
+    font-size: 14px;
+    border-bottom: 2px solid rgb(223, 223, 223);
+    cursor: pointer;
+  }
+.foodactive {
+    color: #ff9154 !important;
+    border-bottom: 2px solid #ff9154 !important;
+  }
+.food li:hover {
+    border-bottom: 2px solid #ff9154;
+  }
+.list-inline-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+.top {
+    margin-top: -.5rem;
+}
+
+.mediaRight {
+    margin-right: .75rem;
+    margin-bottom: 1.5rem;
+  }
+.mediaLeft {
+    margin-left: .75rem;
+    margin-bottom: 1.5rem;
+  } 
+.foodMenu img {
+    width: 50%;
+    height: auto;
+    margin-left: 0.75rem;
+  }
+.foodMenu .col-md-6 {
+    padding: 0px !important;
+  }
+.mediaRow1 {
+    font-size: 20px;
+  }
+.mediaRow2 {
+    padding: 0.50rem !important;
+    color: #ff9154;
+    font-size: 18px;
+}
+.mediaIcon {
+    color: #999999;
+    font-size: 15px;
+  }
+.media-body {
+    padding: 3rem !important;
+}
+.media-body button {
+    color: #ff9154;
+    border: 1px solid #ff9154;
+    border-radius: 0px !important;
+    transition: .3s;
+    margin-top: .75rem;
+    padding: .5rem 0rem !important;
+    font-size: 15px;
+  }
+.media-body button:hover {
+    color: #fff;
+    background-image: linear-gradient(-90deg, rgb(252, 96, 96), rgb(255, 153, 97)) !important;
+    transition: .5s !important;
+  }
+.media-body button{
+    background: #fff !important;
+}
+/* .customer h2.rubik500 {
+    text-align: center;
+}
+.customer p.poppins400 {
+    text-align: center;
+    padding-left: 13rem;
+} */
+.instragram .col-sm-12 {
+    margin-top: 6rem;
+}
+
+.instagram {
+    color: #999999;
+    font-size: 14px;
+    line-height: 1.75rem;
+  }
+  
+.instagram .row{
+    overflow: hidden;
+  }
+.imgFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -1000rem;
+    background-image: linear-gradient(0deg, rgba(252, 96, 96, 0.68), rgba(255, 153, 97, 0.95));
+    color: #fff;
+    text-align: center;
+    padding: 7px 0px;
+    transition: .5s;
+  }
+.instagramImg:hover .imgFront {
+    top: 0;
+  }
+  .imgFront h5 {
+    font-size: 16px;
+  }
+.imgFront p {
+    font-size: 12px;
+    line-height: 1.75rem;
+  }
+.footer
+  {
+   margin-top: 5rem;
+   background: #FC7D5E;
+  }
+  .footer h2.rubik500 {
+
+    margin-top: 3rem;
+    color: white !important;
+    font-size: 22px;
+}
+.footer p.poppins400 {
+    color: white;
+    font-size: 10px;
+    margin-top: -6px;
+}
+.form-group {
+    position: relative;
+    margin-top: 4rem;
+    border-radius: 0px !important;
+    border: 1px solid #FC7D5E !important;
+}
+.ftr {
+    position: absolute;
+    color: white;
+    margin: -2.2rem 26.5rem;
+    padding: 0.15rem;
+}
+.ficon {
+    color: white;
+    margin-left: -2px;
+}
+.ficon .fab:hover{
+    background: #fff !important;
+    color: black;
+}
+.footer a.nav-link {
+    color: white;
+    line-height: 7px;
+}
+.copyRight {
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 0;
+    color: #ffc09e;
+  }
